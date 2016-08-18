@@ -43,7 +43,7 @@
             <directory>${project.basedir}/src/main/resources</directory>
             <outputDirectory>conf</outputDirectory>
             <filtered>false</filtered>
-            <includes><include>*.properties</include></includes>
+            <includes><include>*.*</include></includes>
         </fileSet>
     </fileSets>
 </assembly>

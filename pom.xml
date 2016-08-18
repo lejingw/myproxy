@@ -23,13 +23,13 @@
 
     <build>
 
-        <resources>
+        <!--<resources>
             <resource>
                 <directory>src/main/resources</directory>
                 <filtering>false</filtering>
                 <excludes><exclude>*.properties</exclude></excludes>
             </resource>
-        </resources>
+        </resources>-->
 
         <plugins>
             <plugin>
@@ -57,9 +57,7 @@
                     <execution>
                         <id>make-assembly</id>
                         <phase>package</phase>
-                        <goals>
-                            <goal>single</goal>
-                        </goals>
+                        <goals><goal>single</goal></goals>
                     </execution>
                 </executions>
             </plugin>
