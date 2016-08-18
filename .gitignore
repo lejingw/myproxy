@@ -9,7 +9,6 @@
 
 #other
 /logs
-/target
 **/logs
 **/target
 
